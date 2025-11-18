@@ -26,9 +26,9 @@ Methodology
 - Designed layout with tabs: Overview, Time Trends, Flights & Destinations
 
 Skills
-SQL: CASE statements, window functions, data validation
-Power BI: DAX measures, calculated columns, ETL modeling, multi-page layout, KPI cards
-Data Design: Reference-based cleaning, schema-aware transformations, dashboard UX planning
+SQL: CASE statements, window functions, data validation.
+Power BI: DAX measures, calculated columns, ETL modeling, multi-page layout, KPI cards.
+Data Design: Reference-based cleaning, schema-aware transformations, dashboard UX planning.
 
 Results & Business Recommendation
 The dashboard provides SGS with a clear view of flight traffic across time and geography.
