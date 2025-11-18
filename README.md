@@ -1,4 +1,4 @@
-Aviation Traffic Dashboard for Saudi Ground Services (SGS)
+Dashboard for KSA Airport Traffic - Saudi Ground Services (SGS)
 
 
 Business Problem
@@ -28,7 +28,7 @@ Data Design: Reference-based cleaning, schema-aware transformations, dashboard U
 
 Results & Business Recommendation
 The dashboard provides SGS with a clear view of flight traffic across time and geography.
-- 2M flights and 239M passengers tracked
+- 1.7M flights and 239M passengers tracked
 - 29 airports and 867 destinations analyzed
 - Top airports: JED, RUH, DMM
 - Top countries: SA, AE, EG
@@ -36,12 +36,13 @@ Cleaning the data reduced ambiguity in destination codes and improved join accur
 The dashboard now supports strategic decisions and reduces manual reporting time.
 
 Next Steps
-- Add slicers for year, flight type, and airport
-- Automate data refresh and validation
-- Expand dashboard to include airline-level analysis
-- Document data quality issues and create alerts for future imports
+- Complete the other two pages.
+- Document data quality issues and create alerts for future imports.
 
 
-To see the interactive dashboard use this link :
+To see the interactive Dashboard use this link :
 
 https://app.powerbi.com/view?r=eyJrIjoiYWEwM2UyYTctNjQ3Yy00ODI3LWJhYTQtMmIyNzIyODE5MTE0IiwidCI6ImI0NTNkOTFiLTZhYzEtNGI2MS1iOGI4LTVlNjVlNDIyMjMzZiIsImMiOjl9
+
+NAWAF ALJADAANI.
+15041436.
