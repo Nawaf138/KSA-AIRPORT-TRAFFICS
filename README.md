@@ -40,3 +40,8 @@ Next Steps
 - Automate data refresh and validation
 - Expand dashboard to include airline-level analysis
 - Document data quality issues and create alerts for future imports
+
+
+To see the interactive dashboard use this link :
+
+https://app.powerbi.com/view?r=eyJrIjoiYWEwM2UyYTctNjQ3Yy00ODI3LWJhYTQtMmIyNzIyODE5MTE0IiwidCI6ImI0NTNkOTFiLTZhYzEtNGI2MS1iOGI4LTVlNjVlNDIyMjMzZiIsImMiOjl9
