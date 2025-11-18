@@ -11,7 +11,7 @@ Methodology
 - The data source was from GACA ( https://gaca.gov.sa/Open-Data/OpenDataLibrary )
 - SQL: Cleaned and transformed aviation data in three steps:
 - Removed duplicates using ROW_NUMBER()
-- Standardized destinations using reference tables (IATA, OpenNav, FlightAware)
+- Standardized destinations using reference opennav.com & flightaware.com & github.com/lxndrblz/Airports.
 - Handled nulls and added status flags for missing/invalid passengers
 - Mapped destination codes to country codes using a reference join
 - Power BI:
