@@ -1,6 +1,7 @@
 Aviation Traffic Dashboard for Saudi Ground Services (SGS)
 
-Executive Summary
+#Executive Summary#
+
 Saudi Ground Services (SGS) needed a reliable dashboard to monitor flight traffic across Saudi airports and destinations. Using SQL and Power BI, I cleaned and standardized aviation data from 2021–2024, built a multi-page dashboard, and visualized key metrics such as flights, passengers, airports, and destinations. The dashboard highlights seasonal patterns, top-performing airports, and geographic distribution of flights. It also includes data quality checks and reference-based corrections to ensure analytical credibility.
 Key recommendations for future enhancements:
 - Merge airport and destination analysis for better user experience
