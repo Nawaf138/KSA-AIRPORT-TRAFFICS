@@ -14,7 +14,7 @@ Methodology
 - Removed duplicates using ROW_NUMBER()
 - Standardized destinations using reference opennav.com & flightaware.com & github.com/lxndrblz/Airports.
 - Handled nulls and added status flags for missing/invalid passengers
-- Mapped destination codes to country codes using a reference join
+- Mapped destination codes to country codes using a github reference dataset
 - Power BI:
 - Built a multi-page dashboard with KPIs, time trends, airport rankings, and destination analysis
 - Used DAX to calculate flight growth, percentage changes, and directional indicators (▲ ▼ ▬)
