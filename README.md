@@ -27,14 +27,14 @@ Power BI: DAX measures, calculated columns, ETL modeling, multi-page layout, KPI
 
 Data Design: Reference-based cleaning, schema-aware transformations, dashboard UX planning.
 
-Results & Business Recommendation
-The dashboard provides SGS with a clear view of flight traffic across time and geography.
+Results:
+The dashboard provides SGS with a clear view of flight traffic.
 - 1.7M flights and 239M passengers tracked
 - 29 airports and 867 destinations analyzed
 - Top airports: JED, RUH, DMM
 - Top countries: SA, AE, EG
-Cleaning the data reduced ambiguity in destination codes and improved join accuracy.
-The dashboard now supports strategic decisions and reduces manual reporting time.
+
+
 
 Next Steps
 - Complete the other two pages.
