@@ -1,7 +1,6 @@
 Aviation Traffic Dashboard for Saudi Ground Services (SGS)
 
-#Executive Summary#
-
+Executive Summary
 Saudi Ground Services (SGS) needed a reliable dashboard to monitor flight traffic across Saudi airports and destinations. Using SQL and Power BI, I cleaned and standardized aviation data from 2021–2024, built a multi-page dashboard, and visualized key metrics such as flights, passengers, airports, and destinations. The dashboard highlights seasonal patterns, top-performing airports, and geographic distribution of flights. It also includes data quality checks and reference-based corrections to ensure analytical credibility.
 Key recommendations for future enhancements:
 - Merge airport and destination analysis for better user experience
@@ -11,7 +10,10 @@ Key recommendations for future enhancements:
 Business Problem
 SGS handles millions of flights and passengers annually, but inconsistencies in raw data (e.g., duplicate destinations, invalid airport codes, missing passenger counts) made it difficult to analyze trends and performance. The goal was to clean the data, validate destinations using IATA codes, and build a dashboard that supports operational decisions and strategic planning.
 
+
+
 Methodology
+- The data source was from GACA ( https://gaca.gov.sa/Open-Data/OpenDataLibrary )
 - SQL: Cleaned and transformed aviation data in three steps:
 - Removed duplicates using ROW_NUMBER()
 - Standardized destinations using reference tables (IATA, OpenNav, FlightAware)
@@ -23,7 +25,7 @@ Methodology
 - Designed layout with tabs: Overview, Time Trends, Flights & Destinations
 
 Skills
-SQL: Joins, CTEs, CASE statements, window functions, data validation
+SQL: CASE statements, window functions, data validation
 Power BI: DAX measures, calculated columns, ETL modeling, multi-page layout, KPI cards
 Data Design: Reference-based cleaning, schema-aware transformations, dashboard UX planning
 
