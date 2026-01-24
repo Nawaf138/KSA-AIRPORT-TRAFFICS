@@ -1,49 +1,86 @@
-Dashboard for KSA Airport Traffic - Saudi Ground Services (SGS)
+# Saudi Aviation Traffic Analysis
+
+## Executive Summary
+
+This project provides a comprehensive analysis of aviation traffic across Saudi Arabia's airports using SQL and Power BI technologies. The dashboard background was designed using Figma to ensure an integrated and user-friendly visual experience. The project focused on cleaning and standardizing raw flight data, enriching it with country codes, and designing key performance indicators that support accurate and effective operational decision-making. The final dashboard displays flight volumes, passenger trends, airport rankings, and international connectivity.
+
+## Business Problem
+
+Saudi Ground Services and the General Authority of Civil Aviation faced challenges in obtaining unified and clean data to monitor flight operations across 29 airports and 867 destinations. The raw data included inconsistencies in airport codes, missing passenger values, and unclear destination labels, negatively impacting the reliability of operational insights.
+
+<img width="674" height="378" alt="image" src="https://github.com/user-attachments/assets/0469e6d8-2b4c-4c49-872d-3a6d35f4a29a" />
 
 
-Business Problem
-SGS handles millions of flights and passengers annually, but inconsistencies in raw data (e.g., duplicate destinations, invalid airport codes, missing passenger counts) made it difficult to analyze trends and performance. The goal was to clean the data, validate destinations using IATA codes, and build a dashboard that supports operational decisions and strategic planning.
+## Methodology
 
-"UPDATE 18/11/2025 -> THIS IS ONLY ONE PAGE REPORT" 
-<img width="674" height="378" alt="image" src="https://github.com/user-attachments/assets/f29c0f61-4cdf-43e5-8e5f-e517df692d2c" />
+### SQL: Used for data cleaning, standardization, and enrichment through:
 
+Removing duplicates using window functions like ROW_NUMBER()
 
-Methodology
-- The data source was from GACA ( https://gaca.gov.sa/Open-Data/OpenDataLibrary )
-- SQL: Cleaned and transformed aviation data in three steps:
-- Removed duplicates using ROW_NUMBER()
-- Standardized destinations using reference opennav.com & flightaware.com & github.com/lxndrblz/Airports.
-- Handled nulls and added status flags for missing/invalid passengers
-- Mapped destination codes to country codes using a github reference dataset
-- Power BI:
-- Built a multi-page dashboard with KPIs, time trends, airport rankings, and destination analysis
-- Used DAX to calculate flight growth, percentage changes, and directional indicators (▲ ▼ ▬)
-- Designed layout with tabs: Overview, Time Trends, Flights & Destinations
+Standardizing destination codes using CASE logic and IATA references
 
-Skills
-SQL: CASE statements, window functions, data validation.
+Classifying missing or invalid passenger values
 
-Power BI: DAX measures, calculated columns, ETL modeling, multi-page layout, KPI cards.
+Deleting unresolved or ambiguous records
 
-Data Design: Reference-based cleaning, schema-aware transformations, dashboard UX planning.
+Enriching data by adding country codes from external reference tables
 
-Results:
-The dashboard provides SGS with a clear view of flight traffic.
-- 1.7M flights and 239M passengers tracked
-- 29 airports and 867 destinations analyzed
-- Top airports: JED, RUH, DMM
-- Top countries: SA, AE, EG
+### Power BI: For building the dashboard with:
 
+Visualizing monthly flight trends through interactive line charts
 
+Ranking top airports and countries by flight volume
 
-Next Steps
-- Complete the other two pages.
-- Document data quality issues and create alerts for future imports.
+Displaying local versus international distribution using pie charts
 
+Calculating KPIs such as total flights, passenger counts, number of airports, and destinations
 
-To see the interactive Dashboard use this link :
+## Skills Demonstrated
 
-https://app.powerbi.com/view?r=eyJrIjoiYWEwM2UyYTctNjQ3Yy00ODI3LWJhYTQtMmIyNzIyODE5MTE0IiwidCI6ImI0NTNkOTFiLTZhYzEtNGI2MS1iOGI4LTVlNjVlNDIyMjMzZiIsImMiOjl9
+SQL: CASE logic, window functions, joins, data quality checks, enrichment
 
-NAWAF ALJADAANI.
-15041436.
+Power BI: ETL processes, advanced DAX measures, KPI design, dashboard layout and design
+
+Data Analysis: Aviation traffic classification, anomaly detection, accurate code mapping
+
+## Why CASE and Reference Joins Were Used
+
+CASE logic was essential to unify ICAO codes and airport names into accurate and reliable IATA destinations.
+
+Reference joins with the CODE_REF table ensured retention of only valid airport codes and enriched them with country data, enhancing analysis accuracy.
+
+## Results and Recommendations
+
+### Key Dashboard Results:
+
+- Total Flights: 2 million ▲10.9%
+
+- Total Passengers: 239 million ▲15.0%
+
+- Top Airports: Jeddah (550K), Riyadh (508K)
+
+- Top Countries: Saudi Arabia (848K), UAE (146K), Egypt (145K)
+
+- Local vs. International Distribution: 49% vs. 51%
+
+## Enhanced Recommendations:
+
+- Enhance destination assignment mechanisms using machine learning techniques to improve geographic accuracy and reduce human errors.
+
+- Implement dynamic monitoring of monthly flight fluctuations with smart alerts to optimize operational resource allocation.
+
+- Leverage enriched country data to analyze international traffic patterns and link them to economic and political factors for strategic planning.
+
+- Integrate advanced analyses of seasonal and weather impacts on aviation traffic to improve forecasting.
+
+- Develop a continuous data quality monitoring system to ensure regular data updates and cleansing.
+
+## Next Steps
+
+- Add airport capacity and delay metrics for more precise operational performance analysis.
+
+- Segment aviation traffic by aircraft type and airlines to identify improvement opportunities.
+
+- Incorporate weather and seasonal factors into trend analysis models to enhance forecast accuracy.
+
+- Explore AI capabilities for data analysis and smart operational recommendations.
