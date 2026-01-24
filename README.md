@@ -5,7 +5,7 @@ Business Problem
 SGS handles millions of flights and passengers annually, but inconsistencies in raw data (e.g., duplicate destinations, invalid airport codes, missing passenger counts) made it difficult to analyze trends and performance. The goal was to clean the data, validate destinations using IATA codes, and build a dashboard that supports operational decisions and strategic planning.
 
 "UPDATE 18/11/2025 -> THIS IS ONLY ONE PAGE REPORT" 
-<img width="1660" height="935" alt="image" src="https://github.com/user-attachments/assets/2b3adb14-f4ee-40d5-91d6-25d13bdace73" />
+<img width="674" height="378" alt="image" src="https://github.com/user-attachments/assets/f29c0f61-4cdf-43e5-8e5f-e517df692d2c" />
 
 
 Methodology
