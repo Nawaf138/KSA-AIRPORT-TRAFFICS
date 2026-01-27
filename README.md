@@ -49,9 +49,8 @@ CASE logic was essential to unify ICAO codes and airport names into accurate and
 
 Reference joins with the CODE_REF table ensured retention of only valid airport codes and enriched them with country data, enhancing analysis accuracy.
 
-## Results and Recommendations
 
-### Key Dashboard Results:
+## Key Dashboard Results:
 
 - Total Flights: 2 million ▲10.9%
 
@@ -63,17 +62,6 @@ Reference joins with the CODE_REF table ensured retention of only valid airport 
 
 - Local vs. International Distribution: 49% vs. 51%
 
-## Enhanced Recommendations:
-
-- Enhance destination assignment mechanisms using machine learning techniques to improve geographic accuracy and reduce human errors.
-
-- Implement dynamic monitoring of monthly flight fluctuations with smart alerts to optimize operational resource allocation.
-
-- Leverage enriched country data to analyze international traffic patterns and link them to economic and political factors for strategic planning.
-
-- Integrate advanced analyses of seasonal and weather impacts on aviation traffic to improve forecasting.
-
-- Develop a continuous data quality monitoring system to ensure regular data updates and cleansing.
 
 ## Next Steps
 
