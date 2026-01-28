@@ -37,7 +37,7 @@ Calculating KPIs such as total flights, passenger counts, number of airports, an
 
 ## Skills Demonstrated
 
-SQL: CASE logic, window functions, joins, data quality checks, enrichment
+SQL: CASE logic, window functions, data quality checks, enrichment
 
 Power BI: ETL processes, advanced DAX measures, KPI design, dashboard layout and design
 
